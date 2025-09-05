@@ -47,3 +47,18 @@ NULLIF(stars,'')::DECIMAL(2,1)
 -- default regex miss to 0
 COALESCE((regexp_match(duration, '([0-9]+)\s*(min|mins)'))[1]::int, 0)
 ```
+## Before / After (sample)
+
+**Before – Raw CSV** (first 10 rows)
+
+![Before](images/Before.png)
+
+**After – Cleaned Output** (first 10 rows)
+
+![After](images/After.png)
+
+> Visual checkpoints:
+> - `time` → `duration` (minutes)
+> - `releasedate` → `release_date` (DATE)
+> - `stars` text → numeric `stars` and `ratings`
+> - `author`/`narrator` prefixes removed + camelCase spaced
