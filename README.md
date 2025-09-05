@@ -1,3 +1,10 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Repo Stars](https://img.shields.io/github/stars/Farshid89/audible-cleaning-postgres?style=social)](https://github.com/Farshid89/audible-cleaning-postgres/stargazers)
+[![Open Issues](https://img.shields.io/github/issues/Farshid89/audible-cleaning-postgres)](https://github.com/Farshid89/audible-cleaning-postgres/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14%2B-336791?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Made with SQL](https://img.shields.io/badge/Made%20with-SQL-1f6feb)](#)
+
 # Audible Dataset Cleaning (PostgreSQL)
 
 Production‑minded SQL cleaning pipeline, based on your original work with minimal, safe fixes and clearer comments.  
